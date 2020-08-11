@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+     <category>
+         <pattern>*</pattern>
+         <template>Say something related to context </template>
+    </category>
+   
+    <category>
+         <pattern> Hi </pattern>
+         <template> Hi Wellcome to AISOL  </template>
+    </category>
+  
+  <category>
+    <pattern> * * * AISOL </pattern>
+    <template>AISOL is an artificial and Robotics Compnay visit our website   </template>
+  </category>
+        <category>
+    <pattern>what is your profession</pattern>
+    <template>Engineer</template>
+  </category>
+  <category>
+       <pattern>what is your team, what is your role </pattern>
+    <template>Ambassador</template>
+   
+  </category>
+    
+    <category>
+         <pattern>TELL ME WHAT IS *</pattern>
+         <template> <srai> What is  <star/> </srai> </template>
+    </category>  
+  
+</aiml>
